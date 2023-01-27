@@ -518,7 +518,7 @@ h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #hero .btns {
@@ -2462,10 +2462,17 @@ h1{
 }
 /* our team end */
 
-/* card Border */
+/*FILTER ICON COLOR START */
 
-.service-item.position-relative.overflow-hidden.d-flex.h-100.p-5.ps-0 {
-  border-radius: 18px;
-  box-shadow: 6px 6px 19px #324e15, -6px -6px 19px #506a35;
+.btn{
+  color: whitesmoke;
 }
-/*card border end  */
+
+/*FILTER ICON COLOR  END*/
+
+
+  /*  CAPABILITIES  START*/
+ .capabilities{
+  font-size: 16px;
+ }
+    /*  CAPABILITIES END */
