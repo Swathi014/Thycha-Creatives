@@ -2476,3 +2476,12 @@ h1{
   font-size: 16px;
  }
     /*  CAPABILITIES END */
+
+
+    /* about resize */
+
+    .container .content{
+      max-width: 600px;
+      font-size: 12px;
+      
+    }
