@@ -2669,39 +2669,9 @@ h1{
       font-size: 22px;
   }
 
+/* About page style start */
 
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {}
-  a,
-  a:hover,
-  a:focus,
-  a:active {
-      text-decoration: none;
-      outline: none;
-  }
-  
-  a,
-  a:active,
-  a:focus {
-      color: #6f6f6f;
-      text-decoration: none;
-      transition-timing-function: ease-in-out;
-      -ms-transition-timing-function: ease-in-out;
-      -moz-transition-timing-function: ease-in-out;
-      -webkit-transition-timing-function: ease-in-out;
-      -o-transition-timing-function: ease-in-out;
-      transition-duration: .2s;
-      -ms-transition-duration: .2s;
-      -moz-transition-duration: .2s;
-      -webkit-transition-duration: .2s;
-      -o-transition-duration: .2s;
-  }
-  
+ 
   ul {
       margin: 0;
       padding: 0;
@@ -2960,7 +2930,4 @@ box-shadow: 0 30px 50px rgba(8,13,62,.15);
 -o-transition: all 300ms ease;
 transition: all 300ms ease;
 }
-
-.about-section .image-column .video-link .link:hover{
-background-color: #191e34;
-color: #f
+/* about page style stop */
