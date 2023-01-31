@@ -8,9 +8,125 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-Bold.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-Bold.ttf")
+    format(".ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-BoldItalic";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf") 
+    format("ttf"),
+    url("/assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-Italic";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-Italic.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-Italic.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-Light.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-Light.ttf")
+    format(".ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-LightItalic";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf") 
+    format("ttf"),
+    url("/assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-Medium.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-Medium.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu-MediumItalic";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("/assets/fonts/Ubuntu/Ubuntu-Regular.ttf") 
+    format("ttf"), 
+    url("/assets/fonts/Ubuntu/Ubuntu-Regular.ttf") 
+    format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.one {
+  font-family: "Ubuntu-Bold";
+  
+}
+
+.two {
+  font-family: "Ubuntu-BoldItalic";
+  
+}
+
+.three{
+  font-family: "Ubuntu-Italic";
+  
+}
+.four {
+  font-family: "Ubuntu-Light";
+  
+}
+
+.five {
+  font-family: "Ubuntu-LightItalic";
+  
+}
+
+.six {
+  font-family: "Ubuntu-Medium";
+  
+}
+.seven {
+  font-family: "Ubuntu-MediumItalic";
+  
+}
+.eight {
+  font-family: "Ubuntu-Regular";
+  
+}
+
+
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
   /* background: #0c0b09; */
   background-color: rgba(88, 99, 35, 0.85);
   color: rgb(255, 255, 255);
@@ -205,6 +321,7 @@ h6 {
   background: rgba(0, 0, 0, 0.85);
   border-bottom: 1px solid #37332a;
   max-height: 100px;
+  
 }
 
 #header .logo {
@@ -216,6 +333,7 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  
 }
 
 #header .logo a {
@@ -2473,7 +2591,7 @@ h1{
 
   /*  CAPABILITIES  START*/
  .capabilities{
-  font-size: 16px;
+  font-size: 18px;
  }
     /*  CAPABILITIES END */
 
@@ -2484,4 +2602,137 @@ h1{
       max-width: 600px;
       font-size: 12px;
       
+    }
+
+
+
+    li {
+      list-style: none;
+    }
+    
+    
+    /* style member component */
+    .list-members {
+      background: rgba(88, 99, 35, 0.55);
+      width: 100%;
+      margin: 4% auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    
+    .member {
+      flex-basis: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .member-image {
+      width: 50%;
+      height: 100%;
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .member-image img {
+      width: 100%;
+      height: 100%;
+      transition: 1s;
+    }
+    
+    .member-image:hover img {
+      transform: scale(1.1);
+    }
+    
+    .member-info {
+      width: 50%;
+      text-align: center;
+    }
+    
+    .member-info p {
+      margin: 20px 0;
+    }
+    
+    
+    /* style social link */
+    .social-link .fab {
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      border: 1px solid #000;
+      margin: 0 7px;
+      cursor: pointer;
+      transition: transform .5s;
+    }
+    
+    .social-link .fab:hover {
+      background: #000;
+      color: #ffe501;
+      transform: translateY(-7px);
+    }
+    
+    /* Membuat segitiga */
+    .member-image::after {
+      content: '';
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-right: 15px solid #ffe501;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    
+    
+    /* Merubah posisi member-image dengan member-info */
+    @media screen and (min-width: 771px) {
+      .member:nth-child(4n+3) .member-info,
+      .member:nth-child(4n+4) .member-info {
+        order: 1;
+      }
+      .member:nth-child(4n+3) .member-image,
+      .member:nth-child(4n+4) .member-image {
+        order: 2;
+      }
+    
+      /* Merubah posisi sigitiga pada baris genap */
+      .member:nth-child(4n+3) .member-image::after,
+      .member:nth-child(4n+4) .member-image::after {
+        left: 0;
+        right: auto;
+        transform: translateY(-50%) rotateZ(180deg);
+      }
+    }
+    
+    
+    /* Mobile Styles */
+    @media screen and (max-width: 770px) {
+      .list-members {
+        width: 95%;
+      }
+      .member {
+        flex-basis: 100%;
+        font-size: 14px;
+      }
+      .social-link .fab {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+      }
+    
+      .member:nth-child(even) .member-info {
+        order: 1;
+      }
+      .member:nth-child(even) .member-image {
+        order: 2;
+      }
+      
+      /* Merubah posisi sigitiga elemen genap */
+      .member:nth-child(even) .member-image::after {
+        left: 0;
+        right: auto;
+        transform: translateY(-50%) rotateZ(180deg);
+      }
     }
