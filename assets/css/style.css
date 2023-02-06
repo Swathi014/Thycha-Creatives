@@ -123,13 +123,49 @@
   
 }
 
-
-
 body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu-Regular";
   /* font-family: "Ubuntu", sans-serif; */
   /* background: #0c0b09; */
-  background-color: rgba(88, 99, 35, 0.85);
-  color: rgb(255 255 255 / 75%)
+  /* background-color: rgba(88, 99, 35, 0.85);
+  color: rgb(255 255 255 / 75%) */
+}
+
+#particles-js{
+  background-image: linear-gradient(rgba(128, 142, 56, 0.623) ,rgba(128, 142, 56, .5)
+  ),url(/assets/img/bag.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome{
+  margin-left: 10%;
+  position: absolute;
+  color: #fff;
+  /* font-family: sans-serif; */
+}
+.welcome h1{
+  margin-top: 350px;
+  
+  text-align: center;
+  justify-content: center;
+ ;
+  /* font-size: 48px; */
+  font-size: 60px;
+  font-weight: 700;
+  /* line-height: 56px; */
+  
+  color: #fff;
+  
+}
+
+.welcome h2{
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
 }
 
 a {
@@ -148,7 +184,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
 }
 
 .disable {
@@ -332,7 +368,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   
 }
 
@@ -595,8 +631,9 @@ h6 {
 }
 #hero {
   width: 100%;
-  /* height: 100vh; */
-  background: url("../img/bag.svg") top center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(128, 142, 56, 0.5) ,rgba(128, 142, 56, .62)
+  ),url(/assets/img/bag.jpg);
   background-size: cover;
   position: relative;
   padding: 0;
@@ -604,7 +641,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(88, 99, 35, 0.85);
+  background-image: linear-gradient(rgba(128, 142, 56, 0.5) ,rgba(128, 142, 56, .62)
+  ),url(/assets/img/bag.jpg);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -626,7 +664,7 @@ h6 {
   /* line-height: 56px; */
   line-height: 150px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #hero h1 span {
@@ -820,7 +858,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .section-title h2::after {
@@ -837,7 +875,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   color: #cda45e;
 }
 
@@ -899,7 +937,8 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-  background: url("../img/bag.svg") center center;
+  background-image: linear-gradient(rgba(128, 142, 56, 0.7) ,rgba(128, 142, 56, .5)
+  ),url(/assets/img/bag.jpg);
   background-size: cover;
   position: relative;
   padding: 20px 0;
@@ -907,7 +946,8 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(88, 99, 35, 0.85);
+  background-image: linear-gradient(rgba(128, 142, 56, 0.7) ,rgba(128, 142, 56, .5)
+  ),url(/assets/img/bag.jpg);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1064,7 +1104,7 @@ section {
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
 }
 
 .menu #menu-flters li:hover,
@@ -1105,7 +1145,7 @@ section {
   top: -4px;
   z-index: 1;
   color: #bab3a6;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
 }
 
 .menu .menu-content a {
@@ -1135,7 +1175,7 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1254,7 +1294,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1546,7 +1586,7 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 .contact .info p {
@@ -1713,14 +1753,14 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -2173,7 +2213,7 @@ span.material-symbols-outlined.p-3 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-family: var(--agriox-font, "DM Sans", sans-serif);
+  /* font-family: var(--agriox-font, "DM Sans", sans-serif); */
 }
 
 .page-header__inner .thm-breadcrumb li + li {
@@ -2256,7 +2296,7 @@ span.material-symbols-outlined.p-3 {
   color: var(--agriox-secondary, #6d8c54);
   font-size: 24px;
   line-height: 34px;
-  font-family: var(--agriox-font, "DM Sans", sans-serif);
+  /* font-family: var(--agriox-font, "DM Sans", sans-serif); */
   margin-bottom: 35px;
 }
 
@@ -2433,7 +2473,7 @@ span.material-symbols-outlined.p-3 {
 
   /* our team start */
 
-@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap"); */
 
 /* body{
       min-height: 100vh;
@@ -2537,7 +2577,8 @@ h1{
     
     /* style member component */
     .list-members {
-      background: rgba(88, 99, 35, 0.55);
+      background-image: linear-gradient(rgba(128, 142, 56, 0.7) ,rgba(128, 142, 56, .62)
+  ),url(/assets/img/bag.jpg);
       width: 100%;
       margin: 4% auto;
       display: flex;
@@ -2700,6 +2741,7 @@ line-height: 24px;
 color: #f1cf69;
 font-weight: 500;
 margin-bottom: 15px;
+margin-top: 10px;
 }
 
 .sec-title h2{
@@ -2770,7 +2812,7 @@ font-style: normal;
 font-variant: normal;
 text-rendering: auto;
 line-height: 1.6;
-font-family: "Font Awesome 5 Free";
+
 }
 
 .list-style-one li a:hover{
