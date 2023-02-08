@@ -5,10 +5,13 @@
     .service-item.position-relative.overflow-hidden.d-flex.h-100.ps-0 {
         padding: 0px !important;
     }
-
+    body::-webkit-scrollbar{
+        display: none;
+      }
 
     .welcome{
         margin-left: 0px !important;
+        margin-top: 0px !important;
 
     }
     .welcome h1 {
@@ -59,4 +62,63 @@ section {
     max-height: 120px !important;
 }
 
+body::-webkit-scrollbar{
+    display: none;
   }
+  
+  }
+
+
+/*--------------------------------------------------------------
+# min-device-width : 768px and max-device-width : 1024px
+--------------------------------------------------------------*/
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) { 
+
+    .welcome {
+        margin-left: 0% !important;
+        position: absolute;
+        color: #fff;
+        margin-top: 150px !important;
+        font-family: "Ubuntu-Regular";
+        /* font-family: sans-serif; */
+    }
+    body::-webkit-scrollbar{
+        display: none;
+      }
+}
+
+
+/*--------------------------------------------------------------
+# min-device-width : 414px and max-device-width :  896px
+--------------------------------------------------------------*/
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) {
+.welcome{
+    margin-left: 0px !important;
+    margin-top: 90px !important;
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+     }
+
+
+/*--------------------------------------------------------------
+# min-device-width : 844px and 
+--------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 844px) and (orientation: portrait)
+     {  .welcome{
+        margin-left: 0px !important;
+        margin-top: 90px !important;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+      }
+}
+
