@@ -2,7 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
+
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 
 #particles-js {
   background-image: linear-gradient(rgba(128, 142, 56, 0.623), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg);
