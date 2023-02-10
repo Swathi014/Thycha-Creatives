@@ -2208,6 +2208,11 @@ section {
   }
 }
 
+
+.icon-reorder{
+  content: "\f0c9";
+  
+}
 @media (min-width: 992px) {
   .box:hover img {
     transform: translate3d(0, 0, 0);
