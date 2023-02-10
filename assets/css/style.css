@@ -2,14 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
-
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
-  width: 0 !important
+  width: 0 !important;
 }
-
 
 #particles-js {
   background-image: linear-gradient(rgba(128, 142, 56, 0.623), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg);
@@ -2208,11 +2206,10 @@ section {
   }
 }
 
-
-.icon-reorder{
+.icon-reorder {
   content: "\f0c9";
-  
 }
+
 @media (min-width: 992px) {
   .box:hover img {
     transform: translate3d(0, 0, 0);
