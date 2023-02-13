@@ -43,6 +43,13 @@
     #header .logo img {
         max-height: 120px !important;
     }
+
+    span.material-symbols-outlined.p-3{
+        padding: 0px !important;
+    }
+    span.material-symbols-outlined.p-3 h6{
+        font-size: 9px;
+    }
 }
 /*--------------------------------------------------------------
 #  max-width: 992px
