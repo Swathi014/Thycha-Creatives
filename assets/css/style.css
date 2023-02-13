@@ -1632,6 +1632,7 @@ section {
   padding: 0 0 30px 0;
   color: rgba(255, 255, 255, 0.75);
   font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #footer .footer-top {
@@ -1776,7 +1777,10 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
+#footer img{
+  height: 100%;
+  width: 25%;
+}
 /*--------------------------------------------------------------
 # Client Carousal
 --------------------------------------------------------------*/
@@ -2243,6 +2247,12 @@ section {
 
 .gslide-description p {
   color: #000;
+  font-family: "Ubuntu-Regular";
+  
+}
+
+.gSlideTitle_0 {
+  font-family: "Ubuntu-Regular";
 }
 
 .gslide-description.description-left,
