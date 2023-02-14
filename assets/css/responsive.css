@@ -50,6 +50,24 @@
     span.material-symbols-outlined.p-3 h6 {
         font-size: 9px;
     }
+
+    .capabilities {
+        font-size: 15px;
+        font-weight: 50;
+        display: flex;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+    h4.text-uppercase {
+        font-size: 19px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-left: 0px !important;
+    }
+    .ps-4{
+        padding-left: 0px !important;
+    }
 }
 /*--------------------------------------------------------------
 #  max-width: 992px
