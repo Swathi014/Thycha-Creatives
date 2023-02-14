@@ -52,7 +52,7 @@
     }
 
     .capabilities {
-        font-size: 15px;
+        font-size: 15px !important;
         font-weight: 50;
         display: flex;
         text-align: center;
