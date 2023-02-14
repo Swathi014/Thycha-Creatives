@@ -91,14 +91,15 @@ h6 {
 #preloader:before {
   content: "";
   position: fixed;
+  background: url(/assets/img/logo/logo-light.gif) no-repeat;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1a1814;
+  /* border: 6px solid #1a1814;
   border-top-color: #57f051;
   border-bottom-color: #71e045;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  border-radius: 50%; */
+  width: 100px;
+  height: 100px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
