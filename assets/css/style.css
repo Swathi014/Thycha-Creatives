@@ -10,7 +10,12 @@ body::-webkit-scrollbar {
 }
 
 #particles-js {
-  background-image: linear-gradient(rgba(128, 142, 56, 0.623), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.623), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -497,7 +502,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(128, 142, 56, 0.5), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.5), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   background-size: cover;
   position: relative;
   padding: 0;
@@ -505,7 +515,12 @@ h6 {
 
 #hero:before {
   content: "";
-  background-image: linear-gradient(rgba(128, 142, 56, 0.5), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.5), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -661,7 +676,12 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-  background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   background-size: cover;
   position: relative;
   padding: 20px 0;
@@ -669,7 +689,12 @@ section {
 
 .about:before {
   content: "";
-  background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.5)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1947,7 +1972,12 @@ li {
 
 /* style member component */
 .list-members {
-  background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg);
+  /* background-image: linear-gradient(rgba(128, 142, 56, 0.7), rgba(128, 142, 56, 0.62)), url(/assets/img/bag.jpg); */
+  background: rgb(128,142,56);
+background: -moz-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: -webkit-linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+background: linear-gradient(90deg, rgba(128,142,56,1) 0%, rgba(128,142,56,1) 48%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endColorstr="#808e38",GradientType=1);
   width: 100%;
   margin: 4% auto;
   display: flex;
@@ -2153,7 +2183,7 @@ section {
   width: calc(100% + 50px);
   max-width: calc(100% + 50px);
   transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
 }
 
 .box a::before {
