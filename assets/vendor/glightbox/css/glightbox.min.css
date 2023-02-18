@@ -856,7 +856,7 @@ iframe.wait-autoplay {
         order: 1
     }
     .gslide-image img {
-        max-height: 97vh;
+        max-height: 60vh;
         max-width: 100%
     }
     .gslide-image img.zoomable {
