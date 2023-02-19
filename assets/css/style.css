@@ -596,6 +596,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endCo
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    padding-bottom: 47px;
+    padding-top: 100px;
   }
   #hero h2 {
     font-size: 18px;
