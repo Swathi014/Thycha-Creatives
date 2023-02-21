@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808e38",endCo
   position: absolute;
   color: #fff;
   margin-top: 25px;
-  font-family: "Ubuntu-Regular";
+  font-family: "Ubuntu", sans-serif;
   /* font-family: sans-serif; */
 }
 
@@ -2280,12 +2280,12 @@ section {
 
 .gslide-description p {
   color: #000;
-  font-family: "Ubuntu-Regular";
+  font-family: "Ubuntu", sans-serif;
   
 }
 
 .gSlideTitle_0 {
-  font-family: "Ubuntu-Regular";
+  font-family: "Ubuntu", sans-serif;
 }
 
 .gslide-description.description-left,
