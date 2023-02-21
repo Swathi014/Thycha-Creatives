@@ -1041,7 +1041,7 @@ section {
   display: block;
   font-size: 18px;
   line-height: 24px;
-  color: #f1cf69;
+  color: #ffffff;
   font-weight: 500;
   margin-bottom: 15px;
   margin-top: 10px;
@@ -1231,7 +1231,7 @@ section {
   left: -3px;
   background: transparent;
   z-index: 0;
-  border: 44px solid #f1cf69;
+  border: 44px solid #f1cf6940;
 }
 
 .about-section .image-column .image-1 {
