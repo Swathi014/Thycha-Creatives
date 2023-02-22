@@ -2302,6 +2302,14 @@ h4.text-uppercase {
   font-size: 19px;
 }
 
+
+/* learn more button */
+
+.learnmore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*--------------------------------------------------------------
 # mobile navbar 
 --------------------------------------------------------------*/
