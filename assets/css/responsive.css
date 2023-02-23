@@ -79,8 +79,17 @@
 .logoimg{
     margin-left: -12px;
   }
-
-    
+  .col-lg-4.col-md-4.footer-links {
+    display: none !important;
+}
+.contact-address{
+    display: none;
+    margin-top: 0px !important;
+}
+.text-center.justify-content-center.fw-100.p-5{
+    padding: 0px !important;
+}
+}
 /*--------------------------------------------------------------
 #  max-width: 992px
 --------------------------------------------------------------*/

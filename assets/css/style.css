@@ -8,8 +8,8 @@ body {
 body::-webkit-scrollbar {
   display: none;
   width: 0 !important;
-  
-  overflow-y: hidden;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 #particles-js {
@@ -1916,6 +1916,7 @@ section {
 
 .logoimg{
   margin-left: -20px;
+  margin-top: -50px;
 }
 /*--------------------------------------------------------------
 # Our Team
