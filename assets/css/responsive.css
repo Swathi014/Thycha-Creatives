@@ -68,7 +68,19 @@
     .ps-4{
         padding-left: 0px !important;
     }
-}
+
+    .box img {
+        width: calc(100% + 50px) !important;
+        max-width: calc(90% + 50px) !important;
+        transition: opacity 0.35s, transform 0.35s;
+        transform: translate3d(-12px, 0, 0) !important;
+    }
+    
+.logoimg{
+    margin-left: -12px;
+  }
+
+    
 /*--------------------------------------------------------------
 #  max-width: 992px
 --------------------------------------------------------------*/

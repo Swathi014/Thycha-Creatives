@@ -2,11 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
+  
 }
 
 body::-webkit-scrollbar {
   display: none;
   width: 0 !important;
+  
+  overflow-y: hidden;
 }
 
 #particles-js {
@@ -1807,7 +1810,7 @@ section {
 }
 #footer img{
   height: 100%;
-  width: 25%;
+  width: 40%;
 }
 /*--------------------------------------------------------------
 # Client Carousal
@@ -1909,6 +1912,10 @@ section {
 }
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.logoimg{
+  margin-left: -20px;
 }
 /*--------------------------------------------------------------
 # Our Team
