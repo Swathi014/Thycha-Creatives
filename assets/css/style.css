@@ -9,7 +9,20 @@ body {
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
-
+body {
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+  
+  }
+ 
+  div {
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: hidden;
+  overflow-x: hidden;
+  }
+ 
 /* Hide scrollbar for IE, Edge add Firefox */
 .scrollbar-hidden {
   -ms-overflow-style: none;
