@@ -93,7 +93,14 @@
     }
 
     .logoimg {
-        margin-left: -12px;
+        margin-left: -15px !important;
+        margin-top: 0px !important;
+    }
+    #footer .footer-top {
+        background: #0c0b09;
+        border-top: 1px solid #37332a;
+        border-bottom: 1px solid #28251f;
+        padding: 0px 0 30px 0 !important;
     }
 
     .col-lg-4.col-md-4.footer-links {
